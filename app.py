@@ -9,9 +9,4 @@ csrf = CSRFProtect(app)
 def pagina_inicial():
     return "Hello World"
 
-
-
-
-
-if __name__ == '__main__':
-    app.run()
+if __name__ == '__main__': app.run()
